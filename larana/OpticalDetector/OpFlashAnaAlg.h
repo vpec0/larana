@@ -79,7 +79,7 @@ namespace opdet {
       std::string LeafList;
       HitAnaStruct()
         : LeafList(
-            "time/D:abstime/D:width/D:area/D:amplitude/D:fasttototal/D:pe/D:frame/I:opchannel/i")
+            "time/D:abstime/D:start/D:width/D:area/D:amplitude/D:fasttototal/D:pe/D:frame/I:opchannel/i")
       {}
     };
     HitAnaStruct fOpHitAnaStruct;
