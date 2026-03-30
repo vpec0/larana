@@ -66,6 +66,7 @@ void opdet::OpFlashAnaAlg::FillOpHitTree(const std::vector<recob::OpHit>& hitVec
 
     fOpHitAnaStruct.HitPeakTime = hit.PeakTime();
     fOpHitAnaStruct.HitPeakTimeAbs = hit.PeakTimeAbs();
+    fOpHitAnaStruct.HitStart = hit.StartTime();
     fOpHitAnaStruct.HitWidth = hit.Width();
     fOpHitAnaStruct.HitArea = hit.Area();
     fOpHitAnaStruct.HitAmplitude = hit.Amplitude();

@@ -67,6 +67,7 @@ namespace opdet {
     struct HitAnaStruct {
       double HitPeakTime;
       double HitPeakTimeAbs;
+      double HitStart;
       double HitWidth;
       double HitArea;
       double HitAmplitude;
